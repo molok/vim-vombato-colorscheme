@@ -88,3 +88,6 @@ hi MoreMsg      NONE
 hi link MoreMsg Question
 
 hi ModeMsg      guifg=#F6F3E8 guibg=NONE    gui=NONE
+
+" Custom stuff
+hi Modified guifg=black guibg=#FFA500 
