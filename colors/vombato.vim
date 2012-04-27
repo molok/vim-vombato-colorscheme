@@ -24,7 +24,8 @@ if version >= 700
     hi PmenuSbar     guifg=NONE     guibg=#303030  gui=NONE
     hi PmenuThumb    guifg=NONE     guibg=#808080  gui=NONE
     if version >= 703
-        hi ColorColumn guibg=#202020
+        hi CursorLineNr guifg=#F6F3E8 guibg=NONE gui=NONE
+        hi ColorColumn guibg=#202020 guibg=NONE gui=NONE
     endif
 endif
 
