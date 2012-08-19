@@ -1,11 +1,10 @@
 " vombato.vim
 " ------------------------------------------------------------------------------
-" Version:  0.1
+" Version:  0.1.1
 " Authors: Alessio 'molok' Bolognino <alessio.bolognino+vim@gmail.com>
-" Last Modified: 2012-01-14
+" Last Modified: 2012-08-19
 " License:  GPL (Gnu Public License)
 " ------------------------------------------------------------------------------
-" TODO: Publish on vim.org
 
 if exists("syntax_on")
   syntax reset
@@ -24,12 +23,13 @@ if version >= 700
     hi PmenuSbar     guifg=NONE     guibg=#303030  gui=NONE
     hi PmenuThumb    guifg=NONE     guibg=#808080  gui=NONE
     if version >= 703
-        hi CursorLineNr guifg=#F6F3E8 guibg=NONE gui=NONE
-        hi ColorColumn guibg=#202020 guibg=NONE gui=NONE
+        hi CursorLineNr guifg=#F6F3E8 guibg=NONE    gui=NONE
+        hi ColorColumn  guibg=#202020 guibg=NONE    gui=NONE
+        hi Conceal      guifg=#EDEA61 guibg=#303030 gui=NONE
     endif
 endif
 
-"  General      colors
+" General colors
 hi Cursor       guifg=NONE    guibg=#656565 gui=NONE
 hi Normal       guifg=#F6F3E8 guibg=#242424 gui=NONE
 hi NonText      guifg=#404040 guibg=NONE    gui=NONE
@@ -37,12 +37,11 @@ hi LineNr       guifg=#857B6F guibg=#000000 gui=NONE
 hi StatusLine   guifg=#F6F3E8 guibg=#444444 gui=NONE
 hi StatusLineNC guifg=#857B6F guibg=#444444 gui=NONE
 hi VertSplit    guifg=#444444 guibg=#444444 gui=NONE
-hi Folded       guifg=#EDEA61 guibg=#303030 gui=NONE
 hi Title        guifg=#95e454 guibg=NONE    gui=NONE
 hi Visual       guifg=#F6F3E8 guibg=#444444 gui=NONE
 hi SpecialKey   guifg=#353535 guibg=NONE    gui=NONE
 
-"  Syntax       highlighting
+" Syntax highlighting
 hi Comment      guifg=#99968B guibg=NONE    gui=NONE
 hi Todo         guifg=#FF4400 guibg=NONE    gui=NONE
 hi Constant     guifg=#E5786D guibg=NONE    gui=NONE
