@@ -24,7 +24,7 @@ if version >= 700
     hi PmenuThumb    guifg=NONE     guibg=#808080  gui=NONE
     if version >= 703
         hi CursorLineNr guifg=#F6F3E8 guibg=NONE    gui=NONE
-        hi ColorColumn  guibg=#202020 guibg=NONE    gui=NONE
+        hi ColorColumn  guifg=NONE    guibg=#202020 gui=NONE
         hi Conceal      guifg=#EDEA61 guibg=#303030 gui=NONE
     endif
 endif
