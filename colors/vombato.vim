@@ -55,7 +55,7 @@ hi PreProc      guifg=#E5786D guibg=NONE    gui=NONE
 hi Number       guifg=#E5786D guibg=NONE    gui=NONE
 hi Special      guifg=#E7F6DA guibg=NONE    gui=NONE
 hi Float        guifg=#FFAA50 guibg=NONE    gui=NONE
-hi Boolean      guifg=#E454BA guibg=NONE    gui=NONE
+hi Boolean      guifg=#8AC6F2 guibg=NONE    gui=NONE
 
 hi Search       guifg=#000000 guibg=#FFFF00
 hi IncSearch    guifg=#000000 guibg=#8AC6F2 gui=NONE
