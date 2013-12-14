@@ -1,8 +1,8 @@
 " vombato.vim
 " ------------------------------------------------------------------------------
-" Version:  0.1.1
+" Version:  0.1.2
 " Authors: Alessio 'molok' Bolognino <alessio.bolognino+vim@gmail.com>
-" Last Modified: 2012-08-19
+" Last Modified: 2013-12-09
 " License:  GPL (Gnu Public License)
 " ------------------------------------------------------------------------------
 
@@ -57,12 +57,15 @@ hi Special      guifg=#E7F6DA guibg=NONE    gui=NONE
 hi Float        guifg=#FFAA50 guibg=NONE    gui=NONE
 hi Boolean      guifg=#8AC6F2 guibg=NONE    gui=NONE
 
-hi Search       guifg=#000000 guibg=#FFFF00
-hi IncSearch    guifg=#000000 guibg=#8AC6F2 gui=NONE
-hi DiffAdd      guifg=#000000 guibg=#CAE682 gui=NONE
-hi DiffChange   guifg=#000000 guibg=#FFAA50 gui=NONE
-hi DiffDelete   guifg=#000000 guibg=#e64e53 gui=NONE
-hi DiffText     guifg=#000000 guibg=#FF0000 gui=NONE
+" I use guifg and reverse because using guibg allows the colorcolumn highlight
+" to overwrite the bg color
+hi Search       guifg=#FFFF00 guibg=NONE    gui=reverse
+hi IncSearch    guifg=#8AC6F2 guibg=NONE    gui=reverse
+hi DiffAdd      guifg=#CAE682 guibg=NONE    gui=reverse
+hi DiffChange   guifg=#FFAA50 guibg=NONE    gui=reverse
+hi DiffDelete   guifg=#e64e53 guibg=NONE    gui=reverse
+hi DiffText     guifg=#FF0000 guibg=NONE    gui=reverse
+
 hi FoldColumn   guifg=#EDEA61 guibg=#303030 gui=NONE
 hi Folded       guifg=#EDEA61 guibg=#303030 gui=NONE
 
